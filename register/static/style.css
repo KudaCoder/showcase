@@ -1,0 +1,215 @@
+.column1 {
+	width: 50%;
+	margin: auto;
+}
+
+.column2 {
+	width: 50%;
+}
+
+.wrapper {
+	padding-top: 50px;
+}
+
+#table-row {
+	background: rgba(137,161,163,.5);
+}
+
+#table-headers {
+	text-align: left;
+	vertical-align: middle;
+	font-size: 14pt;
+}
+
+#table-data {
+	vertical-align: middle;
+}
+
+#home-heading {
+	padding-bottom: 25px;
+}
+
+.db_welcome {
+	text-align: center;
+	border: solid #999999 1pt;
+	width: 100%;
+	padding: 25px 25px 25px 25px;
+	margin-left: 20px;
+}
+
+.db_welcome span {
+	font-size: 28pt;
+	font-weight: 5000;
+}
+
+.db_welcome p {
+	padding-top: 10px;
+	font-size: 14pt;
+}
+
+.db_welcome h3, span, p {
+	font-family: 'Patrick Hand', cursive;
+}
+
+#db_search_form {
+	margin-left: 35px;
+	margin-right: -80px;
+}
+
+#db_form_sub {
+	padding-top: 35px;
+	margin-left: 60px;
+}
+
+#search_area {
+	padding-top: 30px;
+}
+
+.remove-restrict {
+	text-align: center;
+	margin-left: 60px;
+}
+
+#restrict-text {
+	padding-top: 35px
+}
+
+#restrict-check {
+	padding-top: 10px
+}
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+	background: linear-gradient(90deg, rgba(201,211,212,1) 40%, rgba(137,161,163,.4)x 75%);
+}
+
+.login-text {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.login-text p {
+	padding-bottom: 15px;
+}
+
+#login-sub-btn {
+	padding-top: 15px;
+	margin-left: 37.5%;"
+}
+
+#messages {
+	width: 30%;
+	margin: auto;
+}
+
+.register-link {
+	padding-top: 25px;
+}
+
+.db-text {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.graph-tile {
+	margin-top: 25px;
+	height: 250%; 
+	width: 500px;
+	padding: 25px 25px 25px 25px;
+}
+
+.shadow {
+	box-shadow: 10px 10px 50px 15px grey;
+}
+
+.v-center {
+	text-align: center;
+	margin: auto;
+}
+
+.line-break {
+	margin-top: 50px;
+ 	border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+
+.login-form{
+	margin-bottom: 30%;
+}
+
+.register-form{
+	margin-bottom: 24%;
+}
+
+.boring-text {
+	padding: 75px 25px 75px 25px;
+}
+
+.boring-text h3 {
+	text-align: center;
+	margin: auto;
+	margin-top: -25px;
+	margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 960px) {
+	.p-top {
+		margin-top: 50px;
+	}
+
+	.db_welcome {
+		width: 500px;
+	}
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Dropdown menu section */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+	border-bottom: solid #999 1pt;
+}
+
+table.dataTable.no-footer {
+	border-bottom: solid #999 1pt;
+}
