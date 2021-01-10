@@ -9,7 +9,7 @@
 	<form class="form-group register-form" method="POST" action="">{% csrf_token %}
     <div class="row">
       <div class="column column1">
-        <h3 style="padding-bottom: 25px">Create a New User Below...</h3>
+        <h3 id="new-user-text">Create a New User Below...</h3>
         <div class="row">
           <div class="col-lg-2">
             <label>Username</label>
@@ -34,8 +34,8 @@
             {{ form.password2|add_class:"form-control-lg shadow-sm" }}
           </div>
         </div>
-        <div class="row reg-sub-btn">
-          <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-6 reg-sub-btn">
             <input class="form-control sub-btn shadow" name="submit" type="submit" value="Submit">
           </div>
         </div>

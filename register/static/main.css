@@ -180,10 +180,14 @@ a.article-title:hover {
   background: var(--submit_btn);
 }
 
+#new-user-text {
+  padding-bottom: 25px;
+  margin-left: 40px;
+}
+
 .reg-sub-btn {
   padding-top: 45px;
-  padding-left: 60px;
-  align-items: center;
+  margin-left: 50px;
 }
 
 .wide {
