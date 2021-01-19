@@ -33,9 +33,9 @@ def register(request):
 	# Main queryset
 	certObj = Certificate.objects.all()
 
-	epcCount = certObj.filter(type__id=1).count()
-	tm44Count = certObj.filter(type__id=4).count()
-	decCount = certObj.filter(Q(type__id=2) | Q(type__id=3)).count()
+	epcCount = certObj.filter(type__type='EPC').count()
+	tm44Count = certObj.filter(type__type='TM44').count()
+	decCount = certObj.filter(Q(type__type='DEC') | Q(type__type='DEC Cannot Be Processed')).count()
 
 	epcExpiryData = []
 	tm44ExpiryData = []
